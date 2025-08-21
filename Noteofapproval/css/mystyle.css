@@ -1,0 +1,418 @@
+﻿body{
+	padding:0;
+	margin:0;
+	background-color:#FFFAEA;
+	color:#000;
+}
+
+.spacer
+{
+	clear:both; 
+	font-size:0; 
+	line-height:0;
+}
+/*------------------------------------------------body--------------------*/
+
+/*------------------------------------------------top part--------------------*/
+#top{
+	background:url(../images/top.png) 0 0 no-repeat;
+	width:968px;
+	height:100px;
+	margin:0 auto;
+	position:relative;
+}
+/*------------------------------------------------top part1--------------------*/
+#top1{
+background:url(../images/survey.png) 0 0 no-repeat;
+width:968px;
+height:40px;
+margin:0 auto;
+position:relative;
+}
+
+#topmenu{
+background: #FFFFFF;
+width:968px;
+height:40px;
+margin:0 auto;
+position:relative;
+}
+
+#topmenu ul{
+height:40px;
+margin:0 auto;
+position:relative;
+}
+
+#top3{
+background:url(../images/admin.png) 0 0 no-repeat;
+width:968px;
+height:40px;
+margin:0 auto;
+position:relative;
+}
+
+#topPcInfo{
+background:url(../images/pcinfo.png) 0 0 no-repeat;
+width:968px;
+height:40px;
+margin:0 auto;
+position:relative;
+}
+
+#topVif{
+background:url(../images/viftop.png) 0 0 no-repeat;
+width:968px;
+height:40px;
+margin:0 auto;
+position:relative;
+}
+
+#menu{
+	background:#CCC;
+width:968px;
+height:30px;
+margin:0 auto;
+}
+/*--------------------------top part2 Survey Information--------------------*/
+#ssamarry{
+	background:#CCC;
+width:968px;
+text-align:center;
+margin:0 auto;
+}
+#top2{
+	background:#CCC;
+width:968px;
+height:280px;
+margin:0 auto;
+}
+
+#top2 p{
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:0px;
+	text-align:justify;
+	font:bold 13px/19px Arial, Helvetica, sans-serif;
+    height: 216px;
+}
+
+#top2 h2{
+	display:block;
+	color:#FFF;
+	height:22px;
+	padding:0px 0 0 0px;
+	margin-left:20px;
+	margin-top:0px;
+	margin-bottom:0px;
+    text-align: center;
+}
+
+/*--------------------------top part2 Survey Information--------------------*/
+#top5{
+	background:#FFFFFF;
+width:968px;
+height:400px;
+margin:0 auto;
+}
+
+#top5 p{
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:0px;
+	text-align:justify;
+	font:bold 13px/19px Arial, Helvetica, sans-serif;
+	
+}
+
+#top5 h2{
+	display:block;
+	color:#FFF;
+	height:22px;
+	padding:0px 0 0 0px;
+	margin-left:20px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+#top6{
+background:#CCC;
+width:50%;
+height:300px;
+margin:0 auto;
+text-align:center;
+}
+#top6 input{
+text-align:center;
+}
+
+#top9{
+	background:#CCC;
+width:968px;
+margin:0 auto;
+}
+/*--------------------------top part2 Survey Question--------------------*/
+#question{
+	background:#FFF;
+width:968px;
+height:600px;
+margin:0 auto;
+
+font:bold 13px/19px Arial, Helvetica, sans-serif;
+}
+
+
+/*--------------------------Space for Login --------------------*/
+
+#login{
+	background:#FFF;
+	width:968px;
+	height:200px;
+	margin:0 auto;
+
+	font:bold 13px/19px Arial, Helvetica, sans-serif;
+}
+
+/*------------------------------------------------footer--------------------*/
+#footerMain{
+	width:968px;
+	margin:0 auto;
+	height:45px;
+	background-color:#fff;
+	color:#0000FF;
+	padding:0 0 16px 0;
+}
+#footer{
+	width:968px;
+	margin:0 auto;
+	background:url(../images/footer_bg.gif) 0 0 repeat-x;
+	height:75px;
+	position:relative;
+}
+
+#footer p.copyright{
+	font:normal 11px/11px Tahoma, Arial, Helvetica, sans-serif;
+	color:#FDFF35;
+	background-color:inherit;
+	position:absolute;
+	left:390px;
+	top:20px;
+	width: 251px;
+}
+
+#footer p.design{
+	display:block;
+	width:276px;
+	height:17px;
+	padding:3px;
+	position:absolute;
+	left:351px;
+	top:35px;
+	font:bold 11px/17px Arial, Helvetica, sans-serif;
+	color:#fff;
+	background-color:#03373B;
+	text-transform:none;
+	text-align:center;
+}
+#footer p.design a.link{
+	font:bold 11px/17px Arial, Helvetica, sans-serif;
+	color:#fff;
+	background-color:#03373B;
+	text-decoration:none;
+	text-transform:none;
+}
+#footer p.design a.link:hover{
+	color:#FDFF35;
+	background-color:#03373B;
+}
+/*------------------------------------------------footer--------------------*/
+ 
+ textarea{
+resize:vertical; /* allow vertical resize of textarea */
+height: 100px;
+width:900px;
+}
+
+.logoutButon {
+cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+width:100px;
+margin-top:50px;
+text-decoration:none;
+text-shadow:#990000;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+margin-left:300px;
+position:absolute;
+padding:5px 25px; /*add some padding to the inside of the button*/
+background:#35b128; /*the colour of the button*/
+border:1px solid #33842a; /*required or the default border for the browser will appear*/
+/*give the button curved corners, alter the size as required*/
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+/*give the button a drop shadow*/
+-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+box-shadow: 0 0 4px rgba(0,0,0, .75);
+/*style the text*/
+color:#f3f3f3;
+font-size:1.1em;
+}
+
+
+/***NOW STYLE THE BUTTON'S HOVER AND FOCUS STATES***/
+.logoutButon:hover, logoutButon:focus{
+background-color :#399630; /*make the background a little darker*/
+/*reduce the drop shadow size to give a pushed button effect*/
+-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
+/***Menu***/
+#menu{
+background:#FFFFFF;
+text-align:center;
+width:968px;
+height:270px;
+margin:0 auto;
+}
+
+#menu ul.flipboard{
+margin:0;
+padding:0;
+list-style:none;
+-webkit-perspective: 10000px; /* larger the value, the less pronounced the 3D effect */
+-moz-perspective: 10000px;
+-o-perspective: 10000px;
+perspective: 10000px;
+}
+
+#menu ul.flipboard li{
+display: inline-block;
+width: 80px; /* dimensions of buttons. Do not add padding/margins inside this rule */
+height: 80px;
+margin-right: 10px; /* spacing between buttons */
+background: white;
+font: bold 36px Arial; /* font size */
+text-transform: uppercase;
+text-align: center;
+cursor: pointer;
+}
+
+#menu ul.flipboard li a{
+display:block;
+width: 100%;
+height: 100%;
+color: black;
+text-decoration: none;
+outline: none;
+-webkit-transition:all 300ms ease-out 0.1s; /* CSS3 transition. Last value is pause before transition play */
+-moz-transition:all 300ms ease-out 0.1s;
+-o-transition:all 300ms ease-out 0.1s;
+transition:all 300ms ease-out 0.1s;
+}
+
+#menu ul.flipboard li a span{
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+padding-top: 15px; /* Add top padding to "center" content */
+display:block;
+width: 100%;
+height: 100%;
+-webkit-transition:all 300ms ease-out 0.1s; /* CSS3 transition. Last value is pause before transition play */
+-moz-transition:all 300ms ease-out 0.1s;
+-o-transition:all 300ms ease-out 0.1s;
+transition:all 300ms ease-out 0.1s;
+}
+
+#menu ul.flipboard li a img{
+border-width: 0;
+}
+
+#menu ul.flipboard li:hover a{
+-moz-transform: rotateY(180deg); /* flip horizontally 180deg*/
+-webkit-transform: rotateY(180deg);
+transform: rotateY(180deg);
+background: #cef1ff; /* background color of button onmouseover */
+-webkit-border-radius:7px;
+-moz-border-radius:7px;
+border-radius:7px;
+-webkit-box-shadow:0 0 5px #eee inset;
+-moz-box-shadow:0 0 5px #eee inset;
+box-shadow:0 0 5px #eee inset;
+}
+
+#menu ul.flipboard li:hover a span{
+-moz-transform: rotateY(180deg); /* flip horizontally 180deg*/
+-webkit-transform: rotateY(180deg);
+transform: rotateY(180deg);
+}
+
+/***Form Desing PC Info***/
+.wrapperField {
+    float:left;
+    width:220px;
+    margin-left:20px;
+}
+
+.wrapperField label{
+    float:left;
+    margin-right:20px;
+    width:220px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-align:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#999999;
+}
+
+.wrapperField input, .wrapperField textarea {
+    float:left;
+    width:200px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px;
+	color:#0000FF;
+}
+
+.submitButton{
+width:300px;
+height:50px;
+text-align:center;
+}
+.submitButton input.submitBtn{
+width:80px;
+border-bottom-color:#FF0000;
+}
+.submitButton input.updateBtn{
+width:80px;
+margin-left:10px;
+border-bottom-color:#FF0000;
+position:absolute;
+}
+.submitButton input.clearBtn{
+width:80px;
+margin-left:110px;
+border-bottom-color:#FF0000;
+position:absolute;
+}
+.submitButton input.logoutBtn{
+width:60px;
+margin-left:200px;
+border-bottom-color:#FF0000;
+position:absolute;
+}
+.submitButton input.AdminPanel{
+width:60px;
+margin-left:280px;
+border-bottom-color:#FF0000;
+position:absolute;
+}
+.submitButton input.findBtn{
+width:120px;
+border-bottom-color:#FF0000;
+border-left-color:#330099;
+border-right-color:#FFFF00;
+border-top-color:#FF0000;
+position:absolute;
+}
+

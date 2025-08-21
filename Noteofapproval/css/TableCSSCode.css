@@ -1,0 +1,109 @@
+﻿
+.CSSTableGenerator {
+margin:0 auto 0 0px;
+width:968px;	box-shadow: 10px 10px 5px #888888;
+border:1px solid #bf0000;
+-moz-border-radius-bottomleft:14px;
+-webkit-border-bottom-left-radius:14px;
+border-bottom-left-radius:14px;
+-moz-border-radius-bottomright:14px;
+-webkit-border-bottom-right-radius:14px;
+border-bottom-right-radius:14px;
+-moz-border-radius-topright:14px;
+-webkit-border-top-right-radius:14px;
+border-top-right-radius:14px;
+-moz-border-radius-topleft:14px;
+-webkit-border-top-left-radius:14px;
+border-top-left-radius:14px;
+}
+.CSSTableGenerator table{
+width:100%;
+height:100%;
+margin:0px;padding:0px;
+    font-family: Cambria;
+    font-size: small;
+}.CSSTableGenerator tr:last-child td:last-child {
+-moz-border-radius-bottomright:14px;
+-webkit-border-bottom-right-radius:14px;
+border-bottom-right-radius:14px;
+}
+.CSSTableGenerator table tr:first-child td:first-child {
+-moz-border-radius-topleft:14px;
+-webkit-border-top-left-radius:14px;
+border-top-left-radius:14px;
+}
+.CSSTableGenerator table tr:first-child td:last-child {
+-moz-border-radius-topright:14px;
+-webkit-border-top-right-radius:14px;
+border-top-right-radius:14px;
+}.CSSTableGenerator tr:last-child td:first-child{
+-moz-border-radius-bottomleft:14px;
+-webkit-border-bottom-left-radius:14px;
+border-bottom-left-radius:14px;
+}.CSSTableGenerator tr:hover td{
+background-color:#ffaaaa;
+}
+.CSSTableGenerator td{
+vertical-align:middle;
+background-color:#ffffff;
+border:1px solid #bf0000;
+border-width:0px 1px 1px 0px;
+text-align:left;
+padding:7px;
+font-size:15px;
+font-family:Arial;
+font-weight:normal;
+color:#000000;
+}.CSSTableGenerator tr:last-child td{
+border-width:0px 1px 0px 0px;
+}.CSSTableGenerator tr td:last-child{
+border-width:0px 0px 1px 0px;
+}.CSSTableGenerator tr:last-child td:last-child{
+border-width:0px 0px 0px 0px;
+}
+.CSSTableGenerator tr:first-child td{
+	background:-o-linear-gradient(bottom, #ff5656 5%, #ff5656 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff5656), color-stop(1, #ff5656) );	background:-moz-linear-gradient( center top, #ff5656 5%, #ff5656 100% );	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff5656", endColorstr="#ff5656");	background: -o-linear-gradient(top,#ff5656,ff5656);
+background-color:#ff5656;
+border:0px solid #bf0000;
+text-align:left;
+border-width:0px 0px 1px 1px;
+font-size:15px;
+font-family:Arial;
+font-weight:bold;
+color:#000000;
+}
+.CSSTableGenerator tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #ff5656 5%, #ff5656 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff5656), color-stop(1, #ff5656) );	background:-moz-linear-gradient( center top, #ff5656 5%, #ff5656 100% );	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff5656", endColorstr="#ff5656");	background: -o-linear-gradient(top,#ff5656,ff5656);
+background-color:#ff5656;
+}
+.CSSTableGenerator tr:first-child td:first-child{
+border-width:0px 0px 1px 0px;
+}
+.CSSTableGenerator tr:first-child td:last-child{
+border-width:0px 0px 1px 1px;
+}
+.CSSTableGenerator input#gobutton{
+cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+padding:5px 25px; /*add some padding to the inside of the button*/
+background:#35b128; /*the colour of the button*/
+border:1px solid #33842a; /*required or the default border for the browser will appear*/
+/*give the button curved corners, alter the size as required*/
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+/*give the button a drop shadow*/
+-webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+box-shadow: 0 0 4px rgba(0,0,0, .75);
+/*style the text*/
+color:#f3f3f3;
+font-size:1.1em;
+}
+/***NOW STYLE THE BUTTON'S HOVER AND FOCUS STATES***/
+.CSSTableGenerator input#gobutton:hover, input#gobutton:focus{
+background-color :#399630; /*make the background a little darker*/
+/*reduce the drop shadow size to give a pushed button effect*/
+-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+box-shadow: 0 0 1px rgba(0,0,0, .75);
+}
